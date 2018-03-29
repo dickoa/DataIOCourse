@@ -1,0 +1,4 @@
+title: Importing and exporting data using R
+description: You will learn how to read data from various format and also export your data.
+programming_language: r
+from: 'r-base-prod:30'

@@ -1,0 +1,39 @@
+---
+title: "Course Outline"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Chapter 1: Import/Export rectangular text file
+
+### Importing data
+
+* Read delimited files: `read_csv()`, `read_tsv()`, `read_csv2()`
+    * 1 exercise each (3)
+    * `col_names` and `col_type` argument specified with `col()` specification.
+   
+* Read fixed width files: `read_fwf()`, `read_table()`.
+    * 1 exercise each (2)
+    * `skip` and `na` arguments
+
+### Exporting data
+   * `write_csv()`
+   * `write_tsv()`
+   * `write_excel_csv()`
+
+
+## Chapter 2: Import/Export Excel file
+
+### Import Excel sheet
+
+* Read excel files: `read_xlsx()`, `read_xls()` 
+    * 1 exercise with most of the options of the `read_xlsx` or `read_xls`
+
+
+### Exporting data into Excel sheets
+   * `write_xlsx()`
+
+
