@@ -473,7 +473,7 @@ test_error()
 success_msg("Great work!")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:1475b4009c
+--- type:NormalExercise lang:r xp:100 skills:1 key:8c4b159d72
 ## Writing .csv and .tsv files
 
 After importing and working with a dataset, you'll want to save it off to the disk to make sure that your hard work doesn't go to waste.  In this exercise, you'll learn how.
@@ -526,7 +526,7 @@ test_error()
 success_msg("Great work!")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:79bb8b3329
+--- type:NormalExercise lang:r xp:100 skills:1 key:a7bcb103a6
 ## Writing .rds files
 
 Sometimes, saving to a CSV file just won't cut it.  If the R object you're working with has metadata associated with it, saving to a CSV will cause that information to be lost.
